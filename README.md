@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/jasonlikescats/aoc_scaffolder.svg?branch=main)](https://travis-ci.org/jasonlikescats/aoc_scaffolder)
+
 # aoc_scaffolder
 
 A simple tool that downloads puzzle input and does some simple
