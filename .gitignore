@@ -6,3 +6,6 @@
 
 # Don't commit the session cookie data file
 session
+
+# Don't commit the compiled binary
+aoc_scaffolder
