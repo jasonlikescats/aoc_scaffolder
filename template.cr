@@ -6,14 +6,10 @@ end
 
 def part1
   data = load_input
-
-
 end
 
 def part2
   data = load_input
-
-
 end
 
 puts "Part 1 Result: \n#{part1}"

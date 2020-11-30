@@ -6,7 +6,7 @@ require "option_parser"
 require "./file_creator"
 
 module AocScaffolder
-  VERSION = "0.1.0"
+  VERSION      = "0.1.0"
   SESSION_FILE = "session"
   DEFAULT_PATH = ".."
 
@@ -22,10 +22,10 @@ module AocScaffolder
     year = est_time.year
     day = est_time.day
     path = DEFAULT_PATH
-  
+
     OptionParser.parse do |parser|
       parser.banner = "Advent of Code Daily Scaffolder"
-  
+
       parser.on("-y YEAR", "--year=YEAR", "Event year") { |y| year = y }
       parser.on("-d DAY", "--day=DAY", "Event day") { |d| day = d }
       parser.on("-p PATH", "--path=PATH", "Relative path to directory to place the scaffolded data") { |p| path = p }
@@ -46,7 +46,7 @@ module AocScaffolder
   def self.request_with_session(url, session)
     cookies = HTTP::Cookies.new
     cookies << HTTP::Cookie.new("session", session)
-    
+
     headers = HTTP::Headers.new
     cookies.add_request_headers(headers)
 
