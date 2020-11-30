@@ -1,0 +1,13 @@
+name: aoc_scaffolder
+version: 0.1.0
+
+authors:
+  - jasonlikescats
+
+targets:
+  aoc_scaffolder:
+    main: src/aoc_scaffolder.cr
+
+crystal: 0.35.1
+
+license: MIT
