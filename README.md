@@ -35,4 +35,3 @@ Requires Crystal (tested on v0.35.1)
 2. Utilize `crystal init` to setup the directory for each day?
 3. Add a Makefile to the set of scaffolded files
 4. Add some tests
-5. Turn on CI
