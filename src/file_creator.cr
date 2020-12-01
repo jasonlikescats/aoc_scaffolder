@@ -21,7 +21,7 @@ class FileCreator
   end
 
   private def create_event_dir(options)
-    dirpath = "#{options.path}/#{options.year}/#{zero_pad(options.day, 2)}"
+    dirpath = "#{options.path}/#{options.year}/day#{zero_pad(options.day, 2)}"
     FileUtils.mkdir_p(dirpath)
     dirpath
   end
