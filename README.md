@@ -16,19 +16,21 @@ Requires Crystal (tested on v0.35.1)
   to the Advent of Code site when logged in (this can easily be obtained
   using browser dev tools).
 2. To run:
-  a. For the current day (placing output in the parent directory '..'), run
-  `crystal run src/aoc_scaffolder.cr`. You may also choose to compile with
-  `crystal build src/aoc_scaffolder.cr` and then invoke the compiled binary
-  directly.
-  b. For any other day, run the program with any of the available options:
-  ```
-  $ crystal run src/aoc_scaffolder.cr -- -h
-  Advent of Code Daily Scaffolder
-      -y YEAR, --year=YEAR             Event year
-      -d DAY, --day=DAY                Event day
-      -p PATH, --path=PATH             Relative path to directory to place the scaffolded data
-      -h, --help                       Show this help
-  ```
+
+    a. For the current day (placing output in the parent directory '..'), run
+    `crystal run src/aoc_scaffolder.cr`. You may also choose to compile with
+    `crystal build src/aoc_scaffolder.cr` and then invoke the compiled binary
+    directly.
+
+    b. For any other day, run the program with any of the available options:
+    ```
+    $ crystal run src/aoc_scaffolder.cr -- -h
+    Advent of Code Daily Scaffolder
+        -y YEAR, --year=YEAR             Event year
+        -d DAY, --day=DAY                Event day
+        -p PATH, --path=PATH             Relative path to directory to place the scaffolded data
+        -h, --help                       Show this help
+    ```
 
 ## Roadmap
 1. Add unit test creation to the scaffolding
